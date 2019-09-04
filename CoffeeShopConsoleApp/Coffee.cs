@@ -15,7 +15,10 @@ namespace CoffeeShopConsoleApp
         /// </summary>
         /// <returns>20 dkr</returns>
         public abstract int price();
-        
+        public abstract string Strength();
+        public  int Disc;
+
+       
 
     }
 }

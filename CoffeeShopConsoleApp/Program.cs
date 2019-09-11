@@ -18,14 +18,22 @@ namespace CoffeeShopConsoleApp
                new BlackCoffe()
 
             };
-
+           
 
             foreach (var coffee in orderList)
             {
-                Console.WriteLine($"the Price of the drink is :{coffee.price()} and the strenght is {coffee.Strength()} " );
+                Console.WriteLine($"the Price of {coffee.Name()} is :{coffee.price()} and the strenght is {coffee.Strength()} " );
             }
 
-
+            foreach (var cofff in orderList)
+            {
+                if (cofff is IMilk)
+                {
+                    Console.WriteLine($"This item of your order {cofff.Name()} contains MILK ");
+                    Console.WriteLine();
+                }
+            }
+            Console.ReadKey();
         }
     }
 }

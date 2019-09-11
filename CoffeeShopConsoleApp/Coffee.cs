@@ -17,8 +17,12 @@ namespace CoffeeShopConsoleApp
         public abstract int price();
         public abstract string Strength();
         public  int Disc;
+        public  abstract string Name();
 
-       
+        public Coffee()
+        {
+
+        }
 
     }
 }

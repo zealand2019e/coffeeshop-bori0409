@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CoffeeShopConsoleApp
 {
-   public interface Milk
+   public interface IMilk
     {
          int mlMilk();
     }

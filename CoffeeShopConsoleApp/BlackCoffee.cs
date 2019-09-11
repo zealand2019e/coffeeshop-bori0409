@@ -17,5 +17,10 @@ namespace CoffeeShopConsoleApp
         {
             return "Strong";
         }
+
+        public override string Name()
+        {
+            return "Black Coffee";
+        }
     }
 }
